@@ -203,7 +203,14 @@
       </div>
   </div>
   <script>
-    window.sr = ScrollReveal();
+      var mq = window.matchMedia( "(min-width: 992px)" );
+      var sr = new ScrollReveal();
+      var isMobile = sr.tools.isMobile();
+
+    // ScrollReveal should proceed if we’re not mobile,
+    // or if we’re mobile with a matching minimum width.
+    if (!isMobile || (isMobile && mq.matches)) {
+
     sr.reveal('.navbar', {
       duration: 2000,
       origin:'bottom'
@@ -260,6 +267,7 @@
       duration: 2000,
       origin:'left'
     });
+  }
   </script>
   </body>
 </html>
