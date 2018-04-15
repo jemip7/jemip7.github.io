@@ -1,148 +1,103 @@
+/* Your custom styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:1rem;
-  font-weight:normal;
-  line-height:1.5;
-  overflow-x:hidden;
-  margin:0;
-  color: #555;
-  background-color: #f4f4f4;
-}
-.sections {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-.header-v {
-  height: 100vh;
-  display: flex;
-  margin-top: 70;
-  max-width:960px;
-  padding-left:1rem;
-  padding-right:1rem;
-  margin:auto;
-  text-align:center;
-  justify-content: center;
-  align-items:center;
-}
-.full-screen-video {
-  position:absolute;
- top:0;
- left:0;
- width:100%;
- height:100vh;
- overflow:hidden;
-}
-.full-screen-video video {
-  min-height:100%;
-  min-width:100%;
-}
-.overlay-header {
-  height:100vh;
-  position: absolute;
-  top:0;
-  left:0;
-  width:100vw;
-  z-index:1;
-  background:#225470;
-  opacity:0.85;
-}
-.header-text {
-  z-index: 2;
-  color: #fff;
-}
-h1 {
-  font-size: 50px;
-}
-.header-text p {
-  font-size:1.5rem;
-  display:block;
-  padding-bottom:2rem;
-}
-.navbar-brand {
-  font-size: 30px;
-  color: #111 !important;
+  color: #111;
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
-.nav a {
-  font-size: 15px;
-}
-.thumbnail {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
-  outline: 0;
-  transition: 0.5s;
-}
-.thumbnail .caption {
-
-}
-.thumbnail:hover {
-  box-shadow: 0 24px 28px 0 rgba(0, 0, 0, 0.1), 0 14px 18px 0 rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-}
-.tarjeta {
-  margin-bottom: 20px;
-}
-.servicios h1 {
-  font-size: 50px;
-  padding-bottom: 70px;
-}
-
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-.carousel-inner {
-
-  border-radius: 5px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-  
-}
-/*
-contact parallax
-*/
-.contact-parallax {
-  background-image: url('../img/header.jpeg');
+.section1 {
+  background-image: url('../img/back9.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  min-height: 500px;
-  z-index: 1;
 }
-.texto-contact {
-  margin-top: 100px;
+h3 {
+  font-size: 70px;
 }
-.texto-contact p {
-  font-size: 20px;
-  color: #333;
+h4 {
+  font-size: 50px;
+}
+img {
+  outline: 10px solid #333;
+  outline-offset: 30px;
+}
+.section2 {
+  background-image: url('../img/back10.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section3 {
+  background-image: url('../img/back11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section4 {
+  background-image: url('../img/back10.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section5 {
+  background-image: url('../img/back12.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section6 {
+  background-image: url('../img/back9.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section7 {
+  background-image: url('../img/back13.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section8 {
+  background-image: url('../img/back14.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section9 {
+  background-image: url('../img/back13.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #007bb5;
+  color: white;
+}
+.navbar {
+  border-bottom: none !important;
+  outline: none;
+  box-shadow: none;
+}
+.nav-item {
+  padding: 5px;
+}
+.nav-link {
+  color: #333 !important;
   font-weight: bold;
 }
-.arriba-contact {
-  margin-top: 50px;
+.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
+  background: #333;
 }
-.google-map iframe {
-  border-radius: 5px;
+@media only screen and (max-width: 768px){
+   img {
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+  }
 }
