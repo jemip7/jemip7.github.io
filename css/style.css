@@ -95,6 +95,9 @@ img {
 .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
   background: #333;
 }
+p a {
+  color: #333;
+}
 @media only screen and (max-width: 768px){
    img {
     margin-top: 70px !important;
