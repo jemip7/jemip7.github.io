@@ -1,106 +1,133 @@
-/* Your custom styles */
 body {
-  color: #111;
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+p{
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+#intro {
+    background: url('../img/3.jpeg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+  box-shadow: none;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+.header-texto {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
 }
-.section1 {
-  background-image: url('../img/back9.png');
-  background-position: center;
-  background-repeat: no-repeat;
+.footer h2 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+}
+.footer-nav {
+  list-style-type: none;
+}
+h1, h2, h3,h4 {
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  line-height: 1.8;
+}
+.top-nav-collapse {
+    background-color: #333;
+}
+.tarjeta {
+  height: 600px;
+  transition: 1s;
+}
+.tarjeta:hover {
+  opacity: 0.7;
+}
+.tarjeta-content h2, h4{
+  font-family: 'Roboto', sans-serif;
+}
+.bg-danger {
+  background-color: #ff3338 !important;
+}
+.bg-dark {
+  background-color: #222 !important;
+}
+.section-1 {
+  background: url('../img/6.jpeg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 80vh;
 }
-h3 {
-  font-size: 70px;
-}
-h4 {
-  font-size: 50px;
-}
-img {
-  outline: 10px solid #333;
-  outline-offset: 30px;
-}
-.section2 {
-  background-image: url('../img/back10.png');
-  background-position: center;
-  background-repeat: no-repeat;
+.section-2 {
+  background: url('../img/g/1.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 80vh;
 }
-.section3 {
-  background-image: url('../img/back11.png');
-  background-position: center;
-  background-repeat: no-repeat;
+.section-3 {
+  background: url('../img/i/1.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 80vh;
 }
-.section4 {
-  background-image: url('../img/back10.png');
-  background-position: center;
-  background-repeat: no-repeat;
+.section-4 {
+  background: url('../img/c/1.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 80vh;
 }
-.section5 {
-  background-image: url('../img/back12.png');
-  background-position: center;
-  background-repeat: no-repeat;
+.section-5 {
+  background: url('../img/6.jpeg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  height: 80vh;
 }
-.section6 {
-  background-image: url('../img/back9.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.paginas-header {
+  height: 80vh;
 }
-.section7 {
-  background-image: url('../img/back13.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.card-trabajos {
+  height: 400px;
+  transition: 0.5s;
 }
-.section8 {
-  background-image: url('../img/back14.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.card-trabajos:hover {
+  opacity: 0.7;
 }
-.section9 {
-  background-image: url('../img/back13.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.contenedor-pagina {
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
-.fa-facebook {
-  background: #3B5998;
-  color: white;
+.fa {
+  color: #fff;
 }
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
+.imagen-iglesia {
+  height: 200px;
+  width: 200px;
 }
-.fa-instagram {
-  background: #007bb5;
-  color: white;
+.full-view {
+  height: 100vh;
 }
-.navbar {
-  border-bottom: none !important;
-  outline: none;
-  box-shadow: none;
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #333;
+  }
 }
-.nav-item {
-  padding: 5px;
-}
-.nav-link {
-  color: #333 !important;
-  font-weight: bold;
-}
-.fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
-  background: #333;
-}
-p a {
-  color: #333;
-}
-@media only screen and (max-width: 768px){
-   img {
-    margin-top: 70px !important;
-    margin-bottom: 70px !important;
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #333;
   }
 }
