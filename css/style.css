@@ -7,6 +7,9 @@ p{
   line-height: 1.8;
   font-weight: bold;
 }
+.wow {
+    visibility: hidden;
+}
 #intro {
     background: url('../img/19.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
